@@ -1,0 +1,45 @@
+{
+  "name": "koa-2-webpack",
+  "version": "0.1.0",
+  "description": "Koa 2 Webpack Dev & Hot Middleware",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "rm -rf lib && rm -rf lib.es2017 && tsc -p -w ./ && webpack -w",
+    "build": "rm -rf lib && rm -rf lib.es2017 && tsc -p ./ && webpack"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "webpack",
+    "hot"
+  ],
+  "author": "Erik Cupal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack-dev-middleware": "^1.9.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "webpack": "^2.2.0",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikCupal/koa-2-webpack"
+  },
+  "types": "./lib/index",
+  "dependencies": {
+    "@types/koa": "^2.0.37",
+    "@types/koa-compose": "^3.2.0",
+    "@types/webpack-dev-middleware": "^1.9.1",
+    "@types/webpack-hot-middleware": "^2.15.0",
+    "koa": "^2.0.0",
+    "koa-compose": "^2.5.1",
+    "koa-convert": "^1.2.0",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    // ES Next
+    "babel-plugin-syntax-trailing-function-commas",
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-transform-export-extensions",
+    "babel-plugin-transform-object-rest-spread"
+  ]
+}

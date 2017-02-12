@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDirs": [
+      "./src/"
+    ],
+    "outDir": "./lib.es2017/",
+    "declaration": true,
+    "declarationDir": "./lib/",
+    "target": "es2017",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
